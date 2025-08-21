@@ -7,7 +7,7 @@ int dividir(int a, int b) {
 
 void main() {
   try {
-    int resultado = dividir(10, 0);
+    int resultado = dividir(10, 2);
     print("Resultado: $resultado");
   } catch (e) {
     print("Ocorreu uma exceção: $e");
